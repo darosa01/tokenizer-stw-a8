@@ -55,7 +55,7 @@ function testTokenizer(){
 
   //here goes the code to run the test over testString
   console.log("numero de a's: " + countA);
-  console.log("numero de c's: " + countC);
+  //console.log("numero de c's: " + .............);
   console.log("numero d'altres caracters: " + countDef);
 }
 
