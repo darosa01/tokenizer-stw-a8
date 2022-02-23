@@ -6,7 +6,7 @@ function Tokenizer(){
 	
     this.run = function(list) {
 		// "Copiamos" this dentro de la función run para que la función definida dentro de forEach 
-		// Pueda acceder a this por clausura. 
+		// Pueda acceder a this (tokenizer y no list) por clausura. 
 		var self = this;
 		list.forEach((function(x){	
 			if (self.dictionary[x]) {
